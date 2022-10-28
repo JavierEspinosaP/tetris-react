@@ -1,0 +1,35 @@
+.gameStatsContainer {
+
+    display: flex;
+    flex-direction: row;
+    // align-items: center;
+}
+
+.GameStats {
+    // position: absolute;
+    display: flex;
+    justify-content:center;
+    margin-top: -170px;
+    width: 400px;
+    height: 100px;
+    list-style-type: none;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+//   .GameStats__left {
+//     right: 0;
+//     top: 22vh;
+//     text-align: left;
+//   }
+
+//   .GameStats__right {
+//     right: 0;
+//     bottom: 0;
+//     text-align: left;
+//   }
+
+  .GameStats .value {
+    font-size: 2.8rem;
+    margin-bottom: 0.1em;
+    color: rgba(255, 255, 255, 1);
+  }
