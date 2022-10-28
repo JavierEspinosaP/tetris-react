@@ -3,7 +3,7 @@ import React from 'react'
 function Menu({onClick}) {
   return (
     <div className="menu">
-      <button className="button" onClick={onClick}> Play </button>
+      <button className="buttonPlay" onClick={onClick}> Play </button>
       </div>
   )
 }
