@@ -7,21 +7,18 @@ function GameStats({ gameStats }) {
 
 
   return (
-    <div className="gameStatsContainer">
-      <div className="GameStats GameStats__right">
-        <div>
+      <div className="GameStats">
+        <div className="gameStatsCells">
         <p>Level</p>
         <p className="value">{level}</p>          
         </div>
-        <div>
+        <div className="gameStatsCells">
         <p>Lines to level</p>
         <p className="value">{linesToLevel}</p>          
         </div>
-        <div>
+        <div className="gameStatsCells">
         <p>Points</p>
         <p className="value">{points}</p>          
-        </div>
-
       </div>
     </div>
   )

@@ -10,8 +10,9 @@ function Tetris({rows, columns, setGameOver}) {
 
   return (
     <div className="tetris">
+      <GameStats gameStats={gameStats} />      
       <Board board={board}/>
-      <GameStats gameStats={gameStats} />
+
     </div>
   )
 }
